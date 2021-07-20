@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: url(../img/bg.png) no-repeat top right;
+}
+
+b, strong {
+    font-weight: 700;
+}
+h2, h3, h4 {
+    font-weight: 300;
+}
+.bg-secondary {
+    background-color: #A0B6D6!important;
+}
+.bg-primary {
+    background-color: #124897!important;
+}
+.btn-primary {
+    background: transparent;
+    border-color: #fff;
+    border-radius: 0;
+}
+.btn-primary:hover {
+    background-color: #124897;
+}
+.btn-secondary {
+    background-color: #A0B6D6;
+    border-color: #A0B6D6;
+    color: #000;
+}
+
+
+/****** Header ******/
+.navbar-brand img {
+    max-width: 250px;
+}
+.navbar-expand-lg .navbar-nav {
+    font-family: 'Vidaloka', serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: .8rem 1rem;
+    color: #fff;
+}
+.navbar-dark .navbar-toggler {
+    background-color: #124897;
+    float: right;
+    margin-top: 2rem;
+}
+.top-btns a {
+    margin: 0 0.4rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.top-btns a:hover {
+    color: #124897;
+}
+
+.carousel-caption {
+    right: 0;
+    bottom: auto;
+    top: 50%;
+    left: 58%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.34);
+    font-size: 0.9rem;
+}
+.carousel-caption h1 {
+    font-family: 'Vidaloka', serif;
+    font-size: 2.95rem;
+}
+
+.box {
+    background: linear-gradient(142deg, #A0B6D6 50%, #124897 50%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    font-size: 0.9rem;
+}
+.box i {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.product {
+    background: #FFFFFF;
+}
+.product-img {
+    min-height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #A0B6D6;
+}
+.product h4 {
+    color: #124897;
+}
+.product a {
+    color: #000;
+    text-decoration: none;
+}
+.product a:hover {
+    color: #124897;
+}
+
+footer {
+    background-color: #124897;
+    color: #fff;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #A0B6D6;
+}
+.copyright {
+    background-color: #A0B6D6;
+    font-size: 0.8rem;
+}
+
+#back-to-top{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    background-color:#124897;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        z-index: 9;
+        top: 80%;
+    }
+}
+@media (max-width: 767px) {
+    .carousel-caption {
+        left: 5%;
+        right: 5%;
+    }
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        margin: 5px 0!important;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 599px) {
+    .navbar-brand img {
+        max-width: 160px;
+    }
+    .navbar-dark .navbar-toggler {
+        margin-top: 0;
+    }
+    .navbar-collapse {
+        top: 75%!important;
+    }
+}
